@@ -10,5 +10,8 @@ class ProxyBook implements EBook{
         }
         realBook.display();
     }
+    int getSize() {
+        return 10;
+    }
     
 }
