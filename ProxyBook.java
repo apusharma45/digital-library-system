@@ -10,5 +10,8 @@ class ProxyBook implements EBook{
         }
         realBook.display();
     }
+    String getTitle() {
+        return bookName;
+    }
     
 }
