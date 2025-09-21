@@ -13,5 +13,8 @@ class ProxyBook implements EBook{
     String getTitle() {
         return bookName;
     }
+    int getSize() {
+        return 10;
+    }
     
 }
